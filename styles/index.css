@@ -26,9 +26,9 @@ body {
 }
 
 .container {
-    min-width: 100px;
-    max-width: 1000px;
-    width: 380px;
+    min-width: 50px;
+    max-width: 350px;
+    width: 350px;
     text-align: center;
     margin: auto;
     background-color: #5fbae8c9;
@@ -39,14 +39,14 @@ body {
     text-align: center;
 }
 
-form {
+/* form {
     max-width: 500px;
     min-width: 100px;
-}
+} */
 
 #inputs-styles {
     max-width: 280px;
-    min-width: 100px;
+    min-width: 50px;
     border: none;
     padding: 10px;
     border-radius: 10px;
