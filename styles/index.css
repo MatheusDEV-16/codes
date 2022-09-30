@@ -26,7 +26,8 @@ body {
 }
 
 .container {
-    max-width: 380px;
+    min-width: 390px;
+    max-width: 300px;
     width: 500px;
     text-align: center;
     margin: auto;
@@ -41,6 +42,7 @@ body {
 
 #inputs-styles {
     max-width: 300px;
+    min-width: 340px;
     border: none;
     padding: 10px;
     border-radius: 10px;
