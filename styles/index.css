@@ -40,6 +40,7 @@ body {
 
 #inputs-styles {
     max-width: 300px;
+    min-width: 300px;
     border: none;
     padding: 10px;
     border-radius: 10px;
