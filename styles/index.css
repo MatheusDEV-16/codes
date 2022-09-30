@@ -26,8 +26,8 @@ body {
 }
 
 .container {
-    min-width: 390px;
-    max-width: 300px;
+    min-width: 100px;
+    /* max-width: 500px; */
     width: 500px;
     text-align: center;
     margin: auto;
@@ -42,7 +42,7 @@ body {
 
 #inputs-styles {
     max-width: 300px;
-    min-width: 340px;
+    min-width: 150px;
     border: none;
     padding: 10px;
     border-radius: 10px;
