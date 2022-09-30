@@ -27,12 +27,11 @@ body {
 
 .container {
     min-width: 100px;
-    /* max-width: 500px; */
-    width: 500px;
+    max-width: 1000px;
+    width: 380px;
     text-align: center;
     margin: auto;
     background-color: #5fbae8c9;
-    max-width: 400px;
     border-radius: 20px;
 }
 
@@ -40,9 +39,14 @@ body {
     text-align: center;
 }
 
+form {
+    max-width: 500px;
+    min-width: 100px;
+}
+
 #inputs-styles {
-    max-width: 300px;
-    min-width: 150px;
+    max-width: 280px;
+    min-width: 100px;
     border: none;
     padding: 10px;
     border-radius: 10px;
