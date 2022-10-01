@@ -43,6 +43,13 @@ h1 {
     min-width: 80px;
 }
 
+.txt {
+    font-family: 'Roboto';
+    text-align: center;
+    color: white; 
+    font-size: 14px;
+}
+
 #inputs-styles {
     max-width: 240px;
     min-width: 50px;
