@@ -29,8 +29,8 @@ h1 {
 }
 
 .container {
-    min-width: 280px;
-    max-width: 255px;
+    min-width: 300px;
+    max-width: 258px;
     width: 255px;
     height: 300px;
     margin: auto;
