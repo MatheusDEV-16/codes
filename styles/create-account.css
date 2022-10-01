@@ -29,7 +29,8 @@ h1 {
 }
 
 .container {
-    min-width: 50px;
+    min-width: 280px;
+    max-width: 255px;
     width: 255px;
     height: 300px;
     margin: auto;
@@ -39,6 +40,7 @@ h1 {
 .create-box {
     text-align: center;
     margin: 2%;
+    min-width: 80px;
 }
 
 #inputs-styles {
