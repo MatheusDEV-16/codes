@@ -64,6 +64,10 @@ h1 {
     color: cyan;
 }
 
+#inputs-styles:focus-visible {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.671);
+}
+
 ::-webkit-input-placeholder {
     text-align: center;
 }
