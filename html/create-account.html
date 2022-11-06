@@ -10,18 +10,24 @@
 <body>
     <h1>Vamos criar sua conta?</h1>
     <div class="container">
-        <form action="">
-            <div class="create-box">
-                <input type="text" id="inputs-styles" autofocus required placeholder="Nome de usuário" name="Nome">
-                <input type="password" name="Password" id="inputs-styles" required autofocus placeholder="Senha da conta">
-                <input type="email" name="email" id="inputs-styles" required placeholder="Seu email">
-                <p class="txt">Vamos te enviar um email de confirmação</p>
-            </div>
-            <div class="buttons">
-                <a href="../html/index.html" class="before_button">Login</a>
-                <button type="submit" class="button">Finalizar</button>
-            </div>
-        </form>
+        <!-- <form action=""> -->
+        <div class="create-box">
+            <input type="text" class="inputs-styles" id="user" placeholder="Nome de usuário" autofocus required>
+            <input type="password" class="inputs-styles" id="password" placeholder="Senha" autofocus required>
+            <input type="email" class="inputs-styles" id="email" placeholder="Email" autofocus required>
+            <p class="txt">Vamos te enviar um email de confirmação</p>
+        </div>
+        <div class="buttons">
+            <a href="../html/index.html" class="before_button">Login</a>
+            <!-- <input type="submit" value="Finalizar" onclick="verify()"> -->
+            <button type="submit" onclick="verify()" class="button">Finalizar</button>
+        </div>
+        <!-- </form> -->
+        <div id="res">
+
+        </div>
     </div>
 </body>
+<!-- <script src="../JavaScript/create-accountScript.js"></script> -->
+<script src="../JavaScript/script_create-account.js"></script>
 </html>

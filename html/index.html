@@ -13,14 +13,14 @@
         <p id="txt">Faça amigos e divirta-se</p>
     </div>
     <div class="container">
-        <form action="">
-            <div class="box-login_box-password">
-                <input type="text" placeholder="Login" autofocus required id="inputs-styles">
-                <input type="text" placeholder="Senha" autofocus required id="inputs-styles">
-            </div>
-            <!-- <input type="submit" class="button" value="Enviar"> -->
-            <button type="submit" class="button">Entrar</button>
-        </form>
+        <!-- <form action=""> -->
+        <div class="box-login_box-password">
+            <input type="text" placeholder="Login" autofocus required class="inputs-styles" id="login">
+            <input type="text" placeholder="Senha" required class="inputs-styles" id="pass">
+        </div>
+        <!-- <input type="submit" class="button" value="Enviar"> -->
+        <button type="submit" class="button" onclick="enviar()">Entrar</button>
+        <!-- </form> -->
         <div class="not-acc_div_guest">
             <div class="guest_btn">
                 <a href="#">Convidado</a>
@@ -35,4 +35,5 @@
         <img src="../images/bandeira-b22.png" alt="" class="image-configs">
     </div> -->
 </body>
+<script src="../JavaScript/scriptIndex.js"></script>
 </html>

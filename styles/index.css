@@ -62,7 +62,7 @@ body {
     min-width: 100px;
 } */
 
-#inputs-styles {
+.inputs-styles {
     max-width: 250px;
     min-width: 50px;
     width: 210px;
@@ -78,13 +78,13 @@ body {
     transition: .3s;
 }
 
-#inputs-styles:focus-visible {
+.inputs-styles:focus-visible {
     width: 250px;
     border-radius: 35px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
 }
 
-#inputs-styles:hover {
+.inputs-styles:hover {
     width: 250px;
     border-radius: 35px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
