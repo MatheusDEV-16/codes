@@ -20,6 +20,33 @@ body {
     background-image: linear-gradient(to top right, #69A6FF, #5FBBE8, #75F5FF, #5FE8CB, #61f1a9d0);
 }
 
+#msg {
+    margin: auto;
+    font-family: 'Poppins';
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+}
+
+#msg::backdrop {
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+#beforeBtn {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    padding: 9px;
+    border-radius: 9px;
+    background-color: #5FE8CB;
+    margin-left: 90%;
+}
+
+#beforeBtn:hover {
+    background-color: aqua;
+}
+
 .box-texts {
     margin: 2%;
 }
