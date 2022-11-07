@@ -28,8 +28,14 @@ body {
     border-radius: 12px;
 }
 
+#showPassUser {
+    margin-left: -5.5%;
+    position: relative;
+    left: 3%;
+}
+
 #msg::backdrop {
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color: rgba(0, 0, 0, 0.404);
 }
 
 #beforeBtn {
@@ -40,7 +46,7 @@ body {
     padding: 9px;
     border-radius: 9px;
     background-color: #5FE8CB;
-    margin-left: 90%;
+    margin-left: auto;
 }
 
 #beforeBtn:hover {
