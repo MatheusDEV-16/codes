@@ -81,7 +81,8 @@ body {
     text-align: center;
     margin: auto;
     padding-top: 2px;
-    background-color: #5fbae8c9;
+    /* background-color: #5fbae8c9; */
+    background-color: rgba(40, 117, 117, 0.192);
     border-radius: 17px;
     height: 278px;
 }
