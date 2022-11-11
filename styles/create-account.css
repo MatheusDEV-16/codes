@@ -120,6 +120,36 @@ p {
     color: rgba(16, 209, 32, 0.89);
 }
 
+#beforeBtn {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    padding: 9px;
+    border-radius: 9px;
+    background-color: #5FE8CB;
+    margin-left: auto;
+}
+
+#beforeBtn:hover {
+    background-color: aqua;
+}
+
+
+#msg {
+    text-align: left;
+    margin: auto;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 16pt;
+}
+
+#msg::backdrop {
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
 #res {
     margin-top: 4%;
     font-family: 'Roboto';

@@ -7,7 +7,7 @@ function enviar() {
     var pass = window.document.getElementById('pass')
     if (user.value == '' && pass.value == '') {
         dialog.showModal()
-        dialog.innerHTML = '<h1>Não foi possível acessar sua conta :(</h1><h2>Preencha os campos: <strong>Login</strong> e <strong>Senha</strong><h2><button id="beforeBtn" onclick="before()">Voltar</button>'
+        dialog.innerHTML = '<h1>Não foi possível acessar sua conta :(</h1><h2>Preencha os campos: <strong>Login</strong> e <strong>Senha</strong></h2><button id="beforeBtn" onclick="before()">Voltar</button>'
         
     } else if (user.value == '') {
         dialog.showModal()
@@ -23,7 +23,6 @@ function before() {
 }
 
 function reveal() {
-    
     let inputTypeIsPassWord = pass.type == "password"
     if (inputTypeIsPassWord) {
         showPassword()
