@@ -200,16 +200,16 @@ footer {
     }
 
     #infos {
-        margin: 1% 0% auto 3.5%;
-        width: 398px;
+        margin: 1% 0% auto 1%;
+        width: 377px;
     }
 
     #buttom {
-        padding: 10px;
+        padding: 6px;
         font-size: 13px;
     }
 
     #buttomC {
-        padding: 8px;
+        padding: 6px;
     }
 }
