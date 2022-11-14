@@ -176,7 +176,7 @@ footer {
         flex-direction: column;
         height: auto;
         /* width: 499px; */
-        width: 430px;
+        width: 396px;
         margin-top: 2%;
     }
 
@@ -205,7 +205,7 @@ footer {
 
     #infos {
         margin: 1% 0% auto 1%;
-        width: 377px;
+        width: 370px;
     }
 
     #buttom {
