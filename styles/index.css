@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 @font-face {
     font-family: 'Poppins';
     src: url(../fonts/Poppins-Medium.ttf);
@@ -7,184 +12,204 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url(../fonts/RobotoCondensed-Regular.ttf);
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
+    src: url(RobotoCondensed-Regular.ttf);
 }
 
 body {
+    display: flex;
     background-attachment: fixed;
     background-image: linear-gradient(to top right, #69A6FF, #5FBBE8, #75F5FF, #5FE8CB, #61f1a9d0);
 }
 
-#msg {
-    margin: auto;
+#cont {
+    margin: 0.1%;
+    width: 1365px;
+}
+
+#container {
+    height: auto;
+    display: flex;
+    width: 1353px;
+}
+
+#logo {
     font-family: 'Poppins';
-    padding: 10px;
-    border: none;
-    border-radius: 12px;
+    font-size: 11pt;
+    margin: 0.3%;
+    color: white;
+    /* margin-right: 44%; */
+    margin-right: auto;
 }
 
-#showPassUser {
-    margin-left: -6.5%;
-    position: relative;
-    left: 5%;
+#menu {
+    margin: 1.3% 1% auto 40%;
 }
 
-#msg::backdrop {
-    background-color: rgba(0, 0, 0, 0.404);
+#position {
+    margin: 1% auto auto 5%;
+    width: auto;
 }
 
-#beforeBtn {
-    border: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+#buttom {
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    font-family: 'Poppins'
+}
+
+#buttom:hover {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    background-color: #24be8b96;
+    border-radius: 15px;
+}
+
+#buttomC {
+    text-decoration: none;
     color: white;
     padding: 9px;
-    border-radius: 9px;
-    background-color: #5FE8CB;
-    margin-left: auto;
-}
-
-#beforeBtn:hover {
-    background-color: aqua;
-}
-
-.box-texts {
-    margin: 2%;
-}
-
-.box-image {
-    width: 300px;
-    margin-top: 6.5%;
-    margin-left: 1.5%;
-}
-
-#txt {
     font-family: 'Poppins';
-    text-align: center;
-    color: white;
-    transition: .3s;
+    font-size: 13pt;
+    border: 2px solid rgb(9, 207, 214);
+    border-radius: 15px;
 }
 
-#txt:hover {
-    text-shadow: 2px 2px 2px black;
+#buttomC:hover {
+    border: 2px solid rgb(7, 129, 177);
 }
 
-.container {
-    min-width: 50px;
-    max-width: 350px;
-    width: 350px;
-    text-align: center;
+#login {
     margin: auto;
-    padding-top: 2px;
-    /* background-color: #5fbae8c9; */
-    background-color: rgba(40, 117, 117, 0.192);
-    border-radius: 17px;
-    height: 278px;
 }
 
-.box-login_box-password {
-    text-align: center;
-}
-
-/* form {
-    max-width: 500px;
-    min-width: 100px;
-} */
-
-.inputs-styles {
-    max-width: 250px;
-    min-width: 50px;
-    width: 210px;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    outline: none;
-    margin: 4%;
+#text {
     font-family: 'Poppins';
-    font-size: 24px;
-    font-weight: bold;
-    color: cyan;
-    transition: .3s;
-}
-
-.inputs-styles:focus-visible {
-    width: 250px;
-    border-radius: 35px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
-}
-
-.inputs-styles:hover {
-    width: 250px;
-    border-radius: 35px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
-}
-
-::-webkit-input-placeholder {
-    text-align: center;
-    font-family: 'Poppins';
-    font-size: 18px;
-}
-
-.button {
-    margin: 3%;
-    padding: 8px;
-    border-radius: 14px;
-    outline: none;
-    border: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-    font-size: 20px;
-    background-color: rgba(18, 18, 194, 0.753);
-    transition: 0.5s;
+    font-size: 13pt;
 }
 
-.button:hover {
-    background-color: blue;
+p {
+    margin-left: 1%;
 }
 
-.button:active {
-    background-color: aquamarine;
+#box-LoginAndPass {
+    margin-top: 2%;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 10pt;
+}
+
+#infos {
+    margin: 4% 0% 0% 9%;
+    background-color: #5fbae88f;
+    border-radius: 24px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+
+#camps {
+    margin-top: 5%;
+}
+
+#send {
+    /* margin: 12%; */
+    margin: 10% 2% 0%;
+    text-align: right;
+}
+
+.sendBTN {
+    background-color: #5FE8CB;
+    padding: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    color: white;
+}
+
+.inputConfigs {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 15pt;
+    margin-top: 7%;
+}
+
+::placeholder {
+    text-align: center;
+    /* color: rgba(0, 110, 255, 0.747); */
+    font-family: 'Poppins';
+}
+
+.p {
+    margin-top: 2.5%;
 }
 
 a {
+    font-family: 'Poppins';
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
 }
 
 a:hover {
-    color: rgb(51, 121, 182);
+    color: #298873;
 }
 
-a:active {
-    color: #113975;
+#boxImg {
+    margin-right: 8%;
+    margin-top: 4%;
 }
 
-.info {
-    margin: 0.5%;
-    font-family: 'Roboto';
-    text-align: center;
-    color: white;
-    font-size: 18px;
-}
-
-.not-acc {
+footer {
     font-family: 'Poppins';
-    font-size: 15px;
-}
-
-.not-acc_div_guest {
-    display: flex;
+    color: white;
     text-align: right;
-    /* width: 100px; */
-    margin: 12px;
+    margin-top: 2%;
 }
 
-.guest_btn {
-    margin-right: 52%;
+/* mobile version */
+
+@media (max-width: 500px) {
+    #container {
+        flex-direction: column;
+        height: auto;
+        /* width: 499px; */
+        width: 430px;
+        margin-top: 2%;
+    }
+
+    #menu {
+        margin: 1.5% 0% 1% 0%;
+    }
+
+    #position {
+        margin: 1.5%;
+    }
+
+    #login {
+        margin: 0%;
+        width: 430px;
+    }
+
+    #box-LoginAndPass {
+        margin: 1%;
+        font-size: 9pt;
+        width: 410px;
+    }
+
+    #infos {
+        margin: 1% 0% auto 3.5%;
+        width: 400px;
+    }
+
+    #buttom {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    #buttomC {
+        padding: 8px;
+    }
 }

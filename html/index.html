@@ -4,42 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
     <link rel="stylesheet" href="../styles/index.css">
-    <title>Inicio</title>
 </head>
 <body>
-    <dialog id="msg">
-
-    </dialog>
-    <div id="res">
-
-    </div>
-    <div class="box-texts">
-        <h1 id="txt">&#x1F30E Happy Net &#x1F310</h1>
-        <p id="txt">Faça amigos e divirta-se</p>
-    </div>
-    <div class="container">
-        <!-- <form action=""> -->
-        <div class="box-login_box-password">
-            <input type="text" placeholder="Login" autofocus required class="inputs-styles" id="login">
-            <input type="password" placeholder="Senha" required class="inputs-styles" id="pass"><img src="../images/showeye.png" alt="" onclick="reveal()" width="23" height="23" id="showPassUser">
-        </div>
-        <!-- <input type="submit" class="button" value="Enviar"> -->
-        <button type="submit" class="button" onclick="enviar()">Entrar</button>
-        <!-- </form> -->
-        <div class="not-acc_div_guest">
-            <div class="guest_btn">
-                <a href="#">Convidado</a>
+    <div id="cont">
+        <div id="container">
+            <div id="logo">
+                <h1>&#x1F30E Happy Net &#x1F310</h1>
             </div>
-            <div class="create-acc_button">
-                <a href="../html/create-account.html">Criar conta</a>
+            <div id="menu">
+                <a href="#" id="buttom">Fale Conosco</a>
+                <a href="#" id="buttom">Sobre Nós</a>
+                <a href="#" id="buttom">Convidado</a>
+                <a href="#" id="buttomC">Criar Conta</a>
             </div>
         </div>
+        <div id="position">
+            <div id="login">
+                <div id="text">
+                    <h1>Seja bem vindo(a)!</h1>
+                    <p>Faça amigos e divirta-se. <br>Chat limpo e monitorado, converse com decência... não seja um &#x1F437<br>
+                    </p>
+                </div>
+                <div id="box-LoginAndPass">
+                    <h2>Forneça o nome de usuário e senha que você usou no cadastro</h2>
+                    <div id="infos">
+                        <div id="camps">
+                            <input type="text" placeholder="Nome de usuário" class="inputConfigs">
+                            <input type="password" placeholder="Senha" name="pass" id="pass" class="inputConfigs">
+                        </div>
+                        <div id="send">
+                            <input type="button" value="Enviar >" class="sendBTN">
+                        </div>
+                        <p class="p">Não tem conta? <a href="#">Clique aqui</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <h1 class="info">By: Astrix Developer</h1>
-    <!-- <div class="box-image">
-        <img src="../images/bandeira-b22.png" alt="" class="image-configs">
-    </div> -->
 </body>
-<script src="../JavaScript/scriptIndex.js"></script>
 </html>
