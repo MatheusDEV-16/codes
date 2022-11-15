@@ -1,10 +1,10 @@
 var dialog = window.document.getElementById('msg')
-var res = window.document.getElementById('res')
-const eyeSvg = window.document.getElementById('showPassUser')
-const password = window.document.getElementById('pass')
+//var res = window.document.getElementById('res')
+//const eyeSvg = window.document.getElementById('showPassUser')
+//const password = window.document.getElementById('pass')
 function enviar() {
-    var user = window.document.getElementById('login')
-    var pass = window.document.getElementById('pass')
+    var user = window.document.getElementsById('login')
+    var pass = window.document.getElementsById('pass')
     if (user.value == '' && pass.value == '') {
         dialog.showModal()
         dialog.innerHTML = '<h1>Não foi possível acessar sua conta :(</h1><h2>Preencha os campos: <strong>Login</strong> e <strong>Senha</strong></h2><button id="beforeBtn" onclick="before()">Voltar</button>'
