@@ -178,12 +178,12 @@ footer {
 
 /* mobile version */
 
-@media (max-width: 500px) {
+@media (max-width: 410px) {
     #container {
         flex-direction: column;
         height: auto;
         /* width: 499px; */
-        width: 396px;
+        width: 410px;
         margin-top: 2%;
     }
 
