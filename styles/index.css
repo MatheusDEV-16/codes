@@ -178,12 +178,12 @@ footer {
 
 /* mobile version */
 
-@media (max-width: 420px) {
+@media (max-width: 400px) {
     #container {
         flex-direction: column;
         height: auto;
         /* width: 499px; */
-        width: 400px;
+        width: 380px;
         margin-top: 1%;
     }
 
@@ -202,7 +202,7 @@ footer {
 
     #login {
         margin: 0%;
-        width: 357px;
+        width: 350px;
     }
 
     #box-LoginAndPass {
