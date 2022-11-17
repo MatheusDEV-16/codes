@@ -178,14 +178,15 @@ footer {
 
 /* mobile version */
 
-@media (max-width: 410px) {
+@media (max-width: 500px) {
     #container {
         flex-direction: column;
         height: auto;
         /* width: 499px; */
-        width: 410px;
+        width: 396px;
         margin-top: 2%;
     }
+
 
     #logo {
         margin-left: 1.7%;
@@ -217,7 +218,7 @@ footer {
 
     #buttom {
         padding: 6px;
-        font-size: 13px;
+        font-size: 11px;
     }
 
     #buttomC {
