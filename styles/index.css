@@ -197,6 +197,7 @@ footer {
     #text {
         font-size: 11pt;
         text-align: left;
+        width: 390px;
     }
 
     #menu {
