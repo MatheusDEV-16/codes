@@ -234,7 +234,13 @@ footer {
     }
 
     #infos {
-        margin: 4% 0% 0% 1%;
+        margin: 4% 0% 5% 1%;
         padding: 5px;
+        width: 320px;
+    }
+
+    .inputConfigs {
+        padding: 12px;
+        border-radius: 11px;
     }
 }
