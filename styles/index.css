@@ -191,7 +191,8 @@ footer {
 
     #container {
         flex-direction: column;
-        width: 420px;
+        width: 400px;
+        height: auto;
     }
 
     #text {
