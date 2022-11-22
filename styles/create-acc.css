@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to top left, rgba(0, 195, 255, 0.541), rgba(0, 255, 200, 0.555), rgba(42, 201, 95, 0.596), rgba(31, 57, 201, 0.575), rgba(136, 57, 201, 0.568), rgba(51, 158, 158, 0.534));
+}
+
+#container {
+    display: flex;
+}
+
+header {
+    font-family: 'Poppins';
+    font-size: 17pt;
+    color: white;
+    margin: 0.5%;
+}
+
+#text {
+    margin: 2.5% 5% auto 7%;
+    font-family: 'Roboto';
+    font-size: 12pt;
+    color: white;
+}
+
+ul {
+    margin-left: 3.5%;
+    margin-bottom: 3%;
+}
+
+#cont-create_acc {
+    margin-left: 2.5%;
+    font-family: 'Poppins';
+    color: white;
+    background-color: rgba(25, 71, 71, 0.062);
+    padding: 15px;
+    border-radius: 10px;
+    width: 410px;
+    height: 500px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+p {
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+.inputStyle {
+    border: 1px solid white;
+    padding: 11px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+    margin-left: 10%;
+    margin-right: 2%;
+    width: 270px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13pt;
+}
+
+.configImage {
+    width: 32px;
+    height: 30px;
+    position: relative;
+    top: 1.1%;
+}
+
+.buttonStyle {
+    background-color: rgba(51, 196, 196, 0.548);
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.buttonStyle:hover {
+    background-color: rgba(29, 194, 194, 0.692);
+}
+
+#btnp {
+    text-align: center;
+}
+
+#menu {
+    margin-top: 8%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    margin: 1% 2% 1% 1%;
+}
+
+/* mobile */
+
+@media (max-width: 420px) {
+    #container {
+        display: block;
+    }
+
+    #cont-create_acc {
+        margin-left: 2.3%;
+        padding: 10px;
+        border-radius: 10px;
+        width: 380px;
+        height: 500px;
+    }
+
+    a {
+        font-size: 11pt;
+    }
+}
