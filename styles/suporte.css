@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+* {
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to top left, rgba(80, 192, 46, 0.548), rgba(32, 199, 68, 0.705), rgba(18, 187, 88, 0.473), rgba(21, 182, 147, 0.575), rgba(21, 136, 156, 0.644), rgba(49, 170, 25, 0.514), rgba(14, 63, 167, 0.596), rgba(12, 77, 163, 0.589));
+    animation: colors 13s ease infinite;
+    /* width: 100vh;
+    height: 100vh; */
+    background-size: 600% 200%;
+}
+
+header {
+    margin: 1%;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 14pt;
+}
